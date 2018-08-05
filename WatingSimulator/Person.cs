@@ -29,6 +29,7 @@ namespace WatingSimulator
         public double Position { get; private set; }
         public int StartedWalking { get; set; } = 0;
 
+
         public double Velocity
         {
             get { return _velocity; }
